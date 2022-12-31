@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografias</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@300;400;500;700&family=Solway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container_botao">
+            <label for="menu" class="container_rotulo" >
+               <span class="cabeçalho-hamburguer container_img"></span>  
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu_titulo">Categorias</li>
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Animais</a></li>
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Pessoas</a></li>
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Objetos</a></li>
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Business</a></li>
+                <li class="lista-menu_item"><a href="#" class="lista-menu_link">Design</a></li>
+            </ul>
+        <img src="img_header/Logo (1).svg" alt="Logo Alura Books" class="container_img"> 
+        <h1 class="container_titulo"><b class="container_titulo-negrito">Fotografias</b>books</h1>
+        </div>
+
+        
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções_botão">
+            <label for="opções-menu" class="opções_rotulo"> 
+            <li class="opções_item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link">Animais</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link">Pessoas</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link">Objetos</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link">Business</a>
+                </li>
+                <li class="lista-menu_item">
+                    <a href="#" class="lista-menu_link">Design</a>
+                </li>
+            </ul>
+
+            <li class="opções_item"><a href="#" class="opções_link">Favoritos</a></li>
+            <li class="opções_item"><a href="#" class="opções_link">Minhas Fotos</a></li>
+        </ul>
+        <div class="container"> <!-- Incones ao lado direto -->
+         <a href="#">
+            <img src="img_header/Favoritos (1).svg" alt="favoritos" class="container_img container_img-transparente"></a>
+
+        <a href="#" class="container_link"><img src="img_header/Compras (1).svg" alt="compras" class="container_img" >
+            <p class="container_texto">Minha Sacola</p></a>
+
+        <a href="#" class="container_link" ><img src="img_header/Usuario.svg" alt="usuarios" class="container_img">
+            <p class="container_texto">Meu Perfil</p></a>   
+        </div>
+    </header>
+    <!-- fim do header -->
+    <section class="banner">
+        <h2 class="banner_titulo">Já sabe por onde começar?</h2>
+        <p class="banner_texto">Encontre em nosso feed o que precisa para seu desenvolvimento!</p>
+        <input type="search" class="banner_pesquisa" placeholder="Qual estilo de fotografia que procura?">
+
+    </section>
+    <section class="carrosel">
+        <h2 class="carrosel_titulo">Adicionados recentementes</h2>
+        <!-- Slider main container -->
+        <div class="carrosel_container">
+<div class="swiper">
+    <!-- Additional required wrapper -->
+     <!-- If we need pagination -->
+     <div class="swiper-pagination"></div>
+
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="Nova pasta/foto.jpg" alt="paisagem urbana"></div>
+      <div class="swiper-slide"><img src="Nova pasta/paisagem (2).jpg" alt="paisagem campo"></div>
+      <div class="swiper-slide"><img src="Nova pasta/paisagem.jpg" alt="paisagem Pessoas"></div>
+      <div class="swiper-slide"><img src="Nova pasta/rajudin-hax-UQlKRb4OOrY-unsplash.jpg" alt="fotografia gato"></div>
+      <div class="swiper-slide"><img src="Nova pasta/morteza-khalili-DzLxmmDXE1k-unsplash.jpg" alt="paisagem predio"></div>
+    </div>
+   
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+    <div class="card">
+        <!-- 1 linha -->
+        <div class="card_descrição">
+            <!-- 1 coluna -->
+            <div class="descrição">
+                <h3 class="descrição_titulo">Talvez você também se interesse por...</h3>
+                <h2 class="descrição_titulo-livro">Fotografias abstratas </h2>
+                <p class="descrição_texto">Descubra novas imagens... .</p>
+            </div>
+            <!-- 2 coluna -->
+            <img src="Nova pasta2/colorful-triangular-geometric-pattern.svg" width="300" class="descrição_img" alt="Angular">
+        </div>
+
+        <!-- 2 linha -->
+        <div class="card_botoes">
+            <!-- 1coluna -->
+            <ul class="botoes">
+                <li class="botoes_item"><img src="img_header/Favoritos (1).svg" alt="favoritar livro"></li>
+                <li class="botoes_item"><img src="img/Vector.svg" alt="adicionar ao carrinho de compras"></li>
+            </ul>
+            <!-- 2coluna -->
+            <a href="#" class="botoes_ancora">Saiba mais</a>
+        </div>
+    </div>
+</div>
+    </section>
+   
+    <!-- carrosel de mais vendido -->
+    <section class="carrosel">
+        <h2 class="carrosel_titulo">Mais vendidos</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+     <!-- If we need pagination -->
+     <div class="swiper-pagination"></div>
+
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="Nova pasta2/anita-austvika-8.jpg" alt="ano novo"></div>
+      <div class="swiper-slide"><img src="Nova pasta2/pew-nguyen-S.jpg" alt="natureza"></div>
+      <div class="swiper-slide"><img src="Nova pasta2/pexels-yura-forrat-11987710.jpg" alt="foto Mar"></div>
+    </div>
+  
+    <!-- If we need navigation buttons -->
+    <!-- <div class="swiper-button-prev"></div> -->
+    <!-- <div class="swiper-button-next"></div> -->
+  </div>
+
+    <div class="card">
+        <!-- 1 linha -->
+        <div class="card_descrição">
+            <!-- 1 coluna -->
+            <div class="descrição">
+                <img src="img_maisvendidos/Star 5.svg" alt="avaliação 5 estrelas">
+                <img src="img_maisvendidos/Star 5.svg" alt="avaliação 5 estrelas">
+                <img src="img_maisvendidos/Star 5.svg" alt="avaliação 5 estrelas">
+                <img src="img_maisvendidos/Star 5.svg" alt="avaliação 5 estrelas">
+                <img src="img_maisvendidos/Star 5.svg" alt="avaliação 5 estrelas">
+                <h3 class="descrição_titulo">Fotografa do Mês</h3>
+                <h2 class="descrição_titulo-livro">Juliana Agarikov</h2>
+                <p class="descrição_texto">A mais de 15 anos trabalhando na área, Juliana é especialista em fotografia publicitária.</p>
+            </div>
+            <!-- 2 coluna -->
+            <img src="img_maisvendidos/Perfil-escritora 1.svg" class="descrição_img" alt="Angular">
+        </div>
+
+        <!-- 2 linha -->
+        <div class="card_botoes">
+            <!-- 1coluna -->
+            <ul class="botoes">
+                <li class="botoes_item"><img src="img_header/Favoritos (1).svg" alt="favoritar livro"></li>
+                <li class="botoes_item"><img src="img/Vector.svg" alt="adicionar ao carrinho de compras"></li>
+            </ul>
+            <!-- 2coluna -->
+            <a href="#" class="botoes_ancora">Saiba mais</a>
+        </div>
+    </div>
+    <section class="topicos">
+        <h2 class="topicos_titulos">TOPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="topicos_lista">
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">Retrato</a>
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">Fotojornalismo</a>
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">Fotografias Infantil</a>
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">Fotografias Moda</a>
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">Abstratos</a>
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">Ensaio</a>
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">Sensual</a>
+            </li>
+            <li class="topicos_item">
+                <a href="#" class="topicos_link">Book</a>
+            </li>
+        </ul>
+    </section>
+    <section class="contato">
+        <div class="contato_descrição">
+        <h2 class="contato_titulo">Fique por dentro das novidades!</h2>
+        <p class="contato_texto">Atualizações de fotos, novos fotografos, promoções e outros.</p>
+        <input type="email" placeholder="cadastre seu e-mail" class="contato_email">
+        </div>
+    </section>
+    <hr>
+    <footer class="rodape">
+        <h2 class="rodape_titulo">Grupo de Fotografos</h2>
+        <ul class="lista_rodape">
+            <li class="lista_rodape_titulo">Apoiadores</li>
+            <li class="lista_rodape_item"> <img src="Logos/JP Morgan.svg" alt="Logo "> <a href="#" class="lista-rodape_link"></a></li>
+            <li class="lista_rodape_item"> <img src="Logos/Samsung.svg" alt="Logo Samsung"> <a href="#" class="lista-rodape_link"></a></li>
+            <li class="lista_rodape_item"> <img src="Logos/Walmart.svg" alt="Logo Walmart"> <a href="#" class="lista-rodape_link"></a></li>
+        </ul>
+
+
+        <ul class="lista_rodape">
+            <li class="lista_rodape_titulo">Acesse nossas redes</li>
+            <li class="lista_rodape_item"> <img src="Social Icons/icons8-github.svg" alt="Logo HipstersTech"><a href="#" class="lista-rodape_link"></a></li>
+            <li class="lista_rodape_item"> <img src="Social Icons/icons8-instagram.svg" alt="Logo Scuba"><a href="#" class="lista-rodape_link"></a></li>
+            <li class="lista_rodape_item"> <img src="Social Icons/icons8-linkedin-circled.svg" alt="Logo Layers"><a href="#" class="lista-rodape_link"></a></li>
+            
+        </ul>
+    </footer>
+
+    </section>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 0.2,
+        slidesPerView: 1,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+            },
+        });
+    </script>
+    
+</body>
+</html>
